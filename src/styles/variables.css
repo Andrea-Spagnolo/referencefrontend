@@ -1,0 +1,46 @@
+:root {
+	--ion-color-medium: orange;
+	--ion-color-medium-rgb: 4, 12, 42;
+	--ion-color-medium-contrast: black;
+	--ion-color-medium-contrast-rgb: 255, 255, 255;
+	--ion-color-medium-shade: #040b25;
+	--ion-color-medium-tint: #1d243f;
+}
+
+
+ion-title {
+	font-size: 25px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div {
+	text-align: center;
+}
+
+
+ion-col {
+	background-color: #ffffff;
+	border: solid 1px rgb(0, 0, 0);
+	color: #000000;
+	text-align: center;
+}
+
+ion-header {
+	height: auto;
+	background-color: #ff8a30;
+	min-height: 4vh;
+	display: flex;
+	align-items: center;
+	padding-top: auto;
+	padding-bottom: auto;
+	padding-left: auto;
+	padding-right: auto;
+	justify-content: center;
+	color: rgb(255, 255, 255);
+}
+
+
+ion-content {
+	--background: url('exprivia.jpg') no-repeat center;
+
+}

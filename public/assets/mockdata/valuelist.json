@@ -1,0 +1,21 @@
+[
+    {
+    "type": "section_type",
+    "valueSet": [
+        "STRING",
+        "NUMBER",
+        "SECTION_OBJECT",
+        "SECTION_OBJECT_LIST",
+        "MULTISELECT"
+    ]
+    },
+    {
+    "type": "status",
+    "valueSet": [
+        "DRAFT",
+        "COMPLETED",
+        "DELETED"
+    ]
+    }
+]
+

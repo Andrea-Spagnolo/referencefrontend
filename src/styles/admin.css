@@ -1,0 +1,22 @@
+.ion-padding {
+    padding-top: 2px;
+    position: flex;
+    vertical-align: middle;
+    align-items: center;
+}
+
+
+.ionbutton {
+    width: 200px;
+    height: 100px;
+    font-size: 20px;
+    font-variant: inherit;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.buttoncontainer {
+    align-items: center;
+}

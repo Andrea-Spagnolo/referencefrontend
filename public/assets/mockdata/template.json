@@ -1,0 +1,97 @@
+{
+  "name": "Esempio",
+  "version": "v1",
+  "status": "DRAFT",
+  "sections": [
+    {
+      "name": "Nome Referenza",
+      "type": "STRING"
+    },
+    {
+      "name": "Descrizione Estesa",
+      "type": "STRING"
+    },
+    {
+      "name": "Contratti associati",
+      "type": "SECTION_OBJECT_LIST",
+      "section_object_ref": "#ref/contrattiassociati"
+    },
+    {
+      "name": "Riferimento a DM/PM/Account",
+      "type": "SECTION_OBJECT",
+      "section_object_ref": "#ref/riferimentoadmpmaccount"
+    },
+    {
+      "name": "Servizi",
+      "type": "MULTISELECT",
+      "value_list_key": "services"
+    },
+    {
+      "name": "Tempi referenza",
+      "type": "SECTION_OBJECT",
+      "section_object_ref": "#ref/tempireferenza"
+    },
+    {
+      "name": "Numero dipendenti",
+      "type": "NUMBER"
+    }
+  ],
+  "section_objects": {
+    "#ref/contrattiassociati": [
+      {
+        "name": "Nome",
+        "type": "STRING"
+      },
+      {
+        "name": "Codice",
+        "type": "STRING"
+      }
+    ],
+    "#ref/riferimentoadmpmaccount": [
+      {
+        "name": "Nome",
+        "type": "STRING"
+      },
+      {
+        "name": "Cognome",
+        "type": "STRING"
+      }
+    ],
+    "#ref/tempireferenza": [
+      {
+        "name": "Tempo progetto",
+        "type": "SECTION_OBJECT",
+        "section_object_ref": "#ref/tempireferenza/tempoprogetto"
+      },
+      {
+        "name": "Tempo AMS",
+        "type": "SECTION_OBJECT",
+        "section_object_ref": "#ref/tempireferenza/tempoams"
+      }
+    ],
+    "#ref/tempireferenza/tempoprogetto": [
+      {
+        "name": "Data Inizio",
+        "type": "DATE"
+      },
+      {
+        "name": "Data Fine",
+        "type": "DATE"
+      },
+      {
+        "name": "Primo GoLive",
+        "type": "DATE"
+      }
+    ],
+    "#ref/tempireferenza/tempoams": [
+      {
+        "name": "Data Inizio",
+        "type": "DATE"
+      },
+      {
+        "name": "Data Fine",
+        "type": "DATE"
+      }
+    ]
+  }
+}
