@@ -1,2 +1,2 @@
-npm i node
-npm start
+"npm i node"
+"npm start"
